@@ -7,6 +7,7 @@ const {
   getProductoModel,
 } = require("../../models/productos.models");
 
+
 const router = express.Router();
 
 const service = new ProductosService();
